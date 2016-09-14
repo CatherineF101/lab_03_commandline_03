@@ -37,7 +37,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+foo.txt
 
 ==========
 7. Create another new file using touch.
@@ -45,7 +45,7 @@ Copy and paste the output below.
 $ touch bar.txt
 ----------
 
-
+bar.txt	foo.txt
 
 ==========
 8. List the files in this directory using the flag that gives the most details.
@@ -53,7 +53,9 @@ $ touch bar.txt
 Copy and paste the output below.
 ----------
 
-
+total 0
+-rw-r--r--  1 student  staff  0 Sep 14 11:16 bar.txt
+-rw-r--r--  1 student  staff  0 Sep 14 11:15 foo.txt
 
 ==========
 9. Create a copy of bar.txt called baz.txt and then list the files again.
@@ -62,13 +64,15 @@ Copy and paste the output below.
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
 
-
+bar.txt	baz.txt	foo.txt
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+
+rm bar.txt
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
@@ -76,28 +80,32 @@ Write the command that you used to remove the file.  Copy and paste the output o
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
 
-
+baz.txt	qux.txt
 
 ==========
 12. Go up one directory so that you're in ~/mtec1002-lab-03.
 [NO OUTPUT]
 ----------
 
-
+cd ..
 
 ==========
 13. Try removing the directory called my_files using rmdir.
 
 Write out the command that you used and what happened.
 ----------
+rmdir my_files
 
-
+rmdir: my_files: Directory not empty
 
 ==========
 14. Try removing the directory called my_files using rm.
 
 Write out the command that you used and what happened.
 ----------
+rm my_files
+
+rm: my_files: is a directory
 
 
 
