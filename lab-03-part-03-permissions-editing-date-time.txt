@@ -17,15 +17,18 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 
 What command did you use, and what was its output?
 ----------
+date
 
-
+Wed Sep 14 12:29:10 EDT 2016
 
 ==========
 2. Print out a calendar for this month.
 
 What command did you use, and what was its output?
 ----------
+cal
 
+september 2016
 
 
 ==========
@@ -33,7 +36,8 @@ What command did you use, and what was its output?
 
 What commands did you use to do this?
 ----------
-
+cd ~
+pwd
 
 
 ==========
@@ -41,6 +45,25 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
+touch copy_to_backup.sh.
+
+ls
+
+Adlm				Things
+Adobe				__MACOSX
+Applications			copy_to_backup.sh
+Daytona temp save.maxpat	google.html
+Daytona temp svae.maxpat	isus
+Desktop				maya
+Documents			mtec1002-lab-02
+Downloads			mtec1002-lab-02.zip
+Library				mtec1002-lab-03
+MPLABXProjects			mtec1002-lab-03.tar.gz
+Movies				mtec1003
+Music				pymel.log
+Pictures			stuff
+Public				xgen
+Starsky temp save
 
 
 
@@ -49,7 +72,9 @@ What commands did you use to do this?
 
 What command did you use to find the permissions?
 ----------
+ls -l
 
+-rw-r--r--  1 student  staff  0 Sep 14 12:34 copy_to_backup.sh.
 
 
 ==========
@@ -58,7 +83,7 @@ What command did you use to find the permissions?
 What commands did you use to do this?  What was the output?
 ----------
 
-
+chmod u+x copy_to_backup.sh.
 
 ==========
 7. Try executing the file!
