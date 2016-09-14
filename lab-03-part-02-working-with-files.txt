@@ -129,7 +129,7 @@ Use the command called cat on the file to show its contents.
 Describe what happened below.
 ----------
 
-
+A whole book came out called : The Prince by Nicolo Machiavelli 
 
 ==========
 17. That was a lot of text.  Let's find ways to limit it.  Using the same file...
@@ -140,7 +140,9 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+head
 
+Title: The Prince
 
 
 ==========
@@ -153,7 +155,7 @@ Use tail on the file to show the contents of the end of the file.
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
 
-
+subscribe to our email newsletter to hear about new eBooks.
 
 ==========
 19. Using the same file...
