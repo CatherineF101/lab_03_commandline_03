@@ -93,7 +93,16 @@ $ ./copy_to_backup.sh
 What command did you use to try to execute the file?  What happens?
 ----------
 
+chmod u+x ./copy_to_backup.sh.
 
+Applications		Public			mtec1002-lab-02
+Desktop			ReadMe.pdf		mtec1002-lab-02.zip
+Documents		__MACOSX		mtec1003
+Downloads		bar.txt			my_files
+Library			copy_to_backup.sh.	stuff
+Movies			foo.txt			stuff.tar.gz
+Music			google.html
+Pictures		hello.txt
 
 ==========
 8. Open the file with nano
