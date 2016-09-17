@@ -110,7 +110,7 @@ Pictures		hello.txt
 What command did you use to do this?
 ----------
 
-
+nano ./ copy_to_backup.sh.
 
 ==========
 9. In your file, write the following commands:
